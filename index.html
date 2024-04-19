@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Notifications page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="pc">
+      <header>
+        <div>Notifications <span id="three">3</span></div>
+        <div><a href="" id="MarkAll">Mark all as read</a></div>
+      </header>
+        <main>
+          <div class="blue">
+            <img src="assets/images/avatar-mark-webber.webp" alt="" />
+            <div>
+              <span class="name">Mark Webber</span> reacted to your recent post
+              <a href=""><span class="bold"> My first tournament today!</span></a>
+              <svg
+                viewBox="0 0 36 36"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--twemoji"
+                preserveAspectRatio="xMidYMid meet"
+                fill="#000000"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <circle fill="#DD2E44" cx="18" cy="18" r="18"></circle>
+                </g>
+              </svg>
+              <div class="timestamp">1m ago</div>
+            </div>
+          </div>
+          <div class="blue">
+            <img src="assets/images/avatar-angela-gray.webp" alt="" />
+            <div>
+              <span class="name">Angela Gray</span> followed you
+              <svg
+                viewBox="0 0 36 36"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--twemoji"
+                preserveAspectRatio="xMidYMid meet"
+                fill="#000000"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <circle fill="#DD2E44" cx="18" cy="18" r="18"></circle>
+                </g>
+              </svg>
+              <div class="timestamp">5m ago</div>
+            </div>
+          </div>
+    
+          <div class="blue">
+            <img src="assets/images/avatar-jacob-thompson.webp" alt="" />
+            <div>
+              <span class="name">Jacob Thompson</span> has joined your group
+              <a href=""
+                ><span style="color: hsl(219, 85%, 26%); font-weight: 800"
+                  >Chess Club</span
+                ></a
+              >
+              <svg
+                viewBox="0 0 36 36"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--twemoji"
+                preserveAspectRatio="xMidYMid meet"
+                fill="#000000"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <circle fill="#DD2E44" cx="18" cy="18" r="18"></circle>
+                </g>
+              </svg>
+              <div class="timestamp">1 day ago</div>
+            </div>
+          </div>
+          <div>
+            <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="" />
+            <div>
+              <span class="name">Rizky Hasanuddin</span> sent you a private message
+              <div class="timestamp">5 days ago</div>
+              <div
+                style="
+                  padding: 0.7rem;
+                  border: 1px solid hsl(219, 14%, 63%);
+                  margin-top: 0.8rem;
+                  border-radius: 5px;
+                  cursor: pointer;
+                "
+                id="message"
+              >
+                <a href=""
+                  >Hello, thanks for setting up the Chess Club. I've been a member
+                  for a few weeks now and I'm already having lots of fun and
+                  improving my game.</a
+                >
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="/assets/images/avatar-kimberly-smith.webp" alt="" />
+            <div>
+              <span class="name">Kimberly Smith</span> commented on your picture
+              <div class="timestamp">1 week ago</div>
+            </div>
+            <img src="assets/images/image-chess.webp" alt="" id="chess-image">
+          </div>
+          <div>
+            <img src="/assets/images/avatar-nathan-peterson.webp" alt="" />
+            <div>
+              <span class="name">Nathan Peterson</span> reacted to your
+              recent post <a href=""><span class="bold"> 5 end-game strategies to increase your win rate</span></a>
+              <div class="timestamp">2 weeks ago</div>
+            </div>
+          </div>
+          <div>
+            <img src="/assets/images/avatar-anna-kim.webp" alt="" />
+            <div>
+              <span class="name">Anna Kim</span> left the group
+              <a href=""
+                ><span style="color: hsl(219, 85%, 26%); font-weight: 800"
+                  >Chess Club</span
+                ></a
+              >
+              <div class="timestamp">2 weeks ago</div>
+            </div>
+          </div>
+        </main>
+  </body>
+  <script>
+    const MarkAll = document.getElementById("MarkAll");
+    const blue = document.getElementsByClassName("blue");
+    const svg = document.querySelectorAll("svg");
+    const three = document.getElementById("three")
+    MarkAll.addEventListener("click", (e) => {
+      e.preventDefault();
+      Array.from(blue).forEach((div) => {
+        div.classList.add("read");
+      });
+      [...svg].forEach((svg) => {
+        svg.classList.add("hide");
+      });
+      three.textContent= "0"
+    });
+  </script>
+</html>
